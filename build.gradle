@@ -1,11 +1,5 @@
 apply plugin: 'java'
 
-compileJava.options.encoding = 'UTF-8'
-compileTestJava.options.encoding = 'UTF-8'
-
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
-
 repositories {
   mavenCentral()
 }
@@ -13,4 +7,16 @@ repositories {
 dependencies {
   testCompile 'junit:junit:4.12'
   testCompile 'org.mockito:mockito-all:1.9.5'
+}
+
+compileJava {
+  options.encoding = 'UTF-8'
+  sourceCompatibility = 1.7
+  targetCompatibility = 1.7
+}
+
+compileTestJava {
+  options.encoding = 'UTF-8'
+  sourceCompatibility = 1.7
+  targetCompatibility = 1.7
 }
