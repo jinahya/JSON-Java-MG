@@ -28,6 +28,10 @@
     <maven.compiler.target>1.7</maven.compiler.target>
     <maven.compiler.testSource>1.7</maven.compiler.testSource>
     <maven.compiler.testTarget>1.7</maven.compiler.testTarget>
+    <tagNameFormat>@{project.version}</tagNameFormat>
+    <pushChanges>false</pushChanges>
+    <localCheckout>true</localCheckout>
+    <goals>install</goals>
   </properties>
 
   <dependencies>
