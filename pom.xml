@@ -4,7 +4,7 @@
 
   <groupId>com.github.jinahya</groupId>
   <artifactId>JSON-Java-MG</artifactId>
-  <version>20151123-alpha-3-SNAPSHOT</version>
+  <version>20151123-alpha-4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <scm>
