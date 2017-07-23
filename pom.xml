@@ -4,8 +4,12 @@
 
   <groupId>com.github.jinahya</groupId>
   <artifactId>JSON-Java-MG</artifactId>
-  <version>20160213-SNAPSHOT</version>
+  <version>20160810-SNAPSHOT</version>
   <packaging>jar</packaging>
+
+  <prerequisites>
+      <maven>3.0.4</maven>
+  </prerequisites>
 
   <scm>
     <developerConnection>scm:git:git@github.com:jinahya/${project.artifactId}.git</developerConnection>
@@ -15,14 +19,14 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-    <maven.compiler.testSource>1.7</maven.compiler.testSource>
-    <maven.compiler.testTarget>1.7</maven.compiler.testTarget>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+    <maven.compiler.testSource>1.6</maven.compiler.testSource>
+    <maven.compiler.testTarget>1.6</maven.compiler.testTarget>
   </properties>
 
   <dependencies>
-    <dependency>
+<!--    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
@@ -33,7 +37,7 @@
       <artifactId>mockito-all</artifactId>
       <version>1.9.5</version>
       <scope>test</scope>
-    </dependency>
+    </dependency>-->
   </dependencies>
 
   <build>
@@ -51,5 +55,4 @@
       </plugin>
     </plugins>
   </build>
-
 </project>
